@@ -21,7 +21,7 @@
         <java.version>1.8</java.version>
         <!-- And use Thymeleaf 3 insteaf of 2 -->
         <thymeleaf.version>3.0.2.RELEASE</thymeleaf.version>
-        <thymeleaf-layout-dialect.version>2.0.4</thymeleaf-layout-dialect.version>
+        <thymeleaf-layout-dialect.version>2.0.5</thymeleaf-layout-dialect.version>
     </properties>
 
     <build>
