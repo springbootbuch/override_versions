@@ -10,20 +10,6 @@
     <artifactId>override_versions</artifactId>
     <version>0.0.1-SNAPSHOT</version>
 
-    <parent>
-        <groupId>org.springframework.boot</groupId>
-        <artifactId>spring-boot-starter-parent</artifactId>
-        <version>1.4.3.RELEASE</version>
-    </parent>
-
-    <properties>
-        <!-- Use Java 1.8 -->
-        <java.version>1.8</java.version>
-        <!-- And use Thymeleaf 3 insteaf of 2 -->
-        <thymeleaf.version>3.0.2.RELEASE</thymeleaf.version>
-        <thymeleaf-layout-dialect.version>2.0.5</thymeleaf-layout-dialect.version>
-    </properties>
-
     <build>
         <finalName>${project.artifactId}</finalName>
         <plugins>
@@ -34,10 +20,28 @@
         </plugins>
     </build>
 
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>1.5.1.RELEASE</version>
+    </parent>
+
+    <properties>
+        <!-- Use Java 1.8 -->
+        <java.version>1.8</java.version>
+        <!-- And use Thymeleaf 3 insteaf of 2 -->
+        <thymeleaf.version>3.0.2.RELEASE</thymeleaf.version>
+        <thymeleaf-layout-dialect.version>
+            2.0.5
+        </thymeleaf-layout-dialect.version>
+    </properties>
+
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-thymeleaf</artifactId>
+            <artifactId>
+                spring-boot-starter-thymeleaf
+            </artifactId>
         </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>
