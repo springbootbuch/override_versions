@@ -31,7 +31,7 @@
 
     <properties>
         <!-- Use a certain tomcat version -->
-        <tomcat.version>8.5.9</tomcat.version>
+        <tomcat.version>9.0.40</tomcat.version>
     </properties>
 
     <dependencies>
